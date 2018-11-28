@@ -14,3 +14,6 @@ def getUser(name):
 def getKotki():
     return render_template('kotki.html')
 
+@app.route('/galeria')
+def getGaleria():
+    return render_template('galeria.html')
